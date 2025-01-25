@@ -1,0 +1,5 @@
+*.log
+language-servers/*
+treesitter-parsers/*
+lazy/*
+lazy-lock.json
