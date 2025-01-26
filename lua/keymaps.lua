@@ -29,3 +29,4 @@ vim.api.nvim_set_keymap("n", "<leader>i", "<C-i>", { noremap = true })
 -- Screen centering
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true })
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true })
+vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { noremap = true })

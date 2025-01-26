@@ -1,9 +1,9 @@
 return {
-	"rose-pine/neovim",
-	name = "rose-pine",
+	"navarasu/onedark.nvim",
 	lazy = false,
 	priority = 1000,
+	opts = { style = 'warmer' },
 	init = function(...)
-		vim.cmd("colorscheme rose-pine")
+		require('onedark').load()
 	end,
 }

@@ -17,9 +17,4 @@ if vim.g.loaded_opt == nil then
 	vim.opt.tabstop = 4
 	vim.opt.wrap = false
 	vim.opt.scrolloff = 4
-	vim.opt.list = true
-	vim.opt.listchars = {
-		trail = "·",
-		tab = "> ",
-	}
 end
